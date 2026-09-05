@@ -1,0 +1,9 @@
+﻿test_id,artifact,condition,expected_artifacts,retrieved_artifacts,true_positives,false_negatives,false_positives,recall_percent,field_correctness,timestamp_correctness,aleapp_diagnostic,meaningful_aleapp_diagnostic,guard_result,outcome,materially_incorrect
+C0,Contacts,Supported baseline,20,20,20,0,0,100,"20/20 (Name, JID, Number)",N/A,None required,N/A,PASS,Correct,No
+C1,Contacts,Additive unused column,20,20,20,0,0,100,"20/20 (Name, JID, Number)",N/A,None required,N/A,PASS,Correct,No
+C2,Contacts,Referenced column rename,20,0,0,20,0,0,0/20 recovered,N/A,No data found; no schema-specific diagnostic,No,FAIL,Complete unreported loss,Yes
+C-Empty,Contacts,Valid schema with zero records,0,0,0,0,0,,N/A,N/A,No data found,N/A,PASS,Correct empty condition,No
+C3,Contacts,Referenced table rename,20,0,0,20,0,0,0/20 recovered,N/A,No data found; no schema-specific diagnostic,No,FAIL,Complete unreported loss,Yes
+M0,One-to-One Messages,Supported baseline,20,20,20,0,0,100,"20/20 (message text, participant, direction, JID)",20/20,None required,N/A,PASS,Correct,No
+M1,One-to-One Messages,Structural relationship drift,20,15,15,5,0,75,15/15 retrieved records correct,15/15 retrieved records correct,None,No,WARN,Partial unreported loss,Yes
+M2,One-to-One Messages,Timestamp representation drift,20,20,20,0,0,100,20/20 non-temporal evaluated fields correct,15/20,None,No,WARN,Semantic misinterpretation,Yes
