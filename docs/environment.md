@@ -48,4 +48,4 @@ Install dependencies according to the ALEAPP instructions associated with the pi
 
 The OSF reproducibility package contains the frozen environment metadata and SHA-256 manifest associated with the study.
 
-OSF project: **[ADD OSF URL]**
+OSF project: https://osf.io/m72qr/
