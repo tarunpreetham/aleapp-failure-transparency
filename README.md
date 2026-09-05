@@ -14,7 +14,7 @@ This GitHub repository is the maintained code repository for the project.
 
 OSF project: https://osf.io/m72qr/
 
-Research Square preprint: 
+Research Square preprint: Currently Under Review
 
 ## Tested ALEAPP Revision
 
