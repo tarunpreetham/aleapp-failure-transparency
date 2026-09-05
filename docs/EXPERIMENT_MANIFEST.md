@@ -8,7 +8,7 @@ This document maps the controlled benchmark conditions to the frozen inputs and 
 
 ## Important Reproducibility Note
 
-The controlled database modifications in the reported experiment were performed manually using **DB Browser for SQLite 3.13.1**. No mutation scripts were executed during the reported study.
+The controlled database modifications in the reported experiment were performed manually using DB Browser for SQLite 3.13.1. No mutation scripts were executed during the reported study.
 
 The modification descriptions below document the exact experimental changes. The frozen post-modification evidence roots are archived in the accompanying OSF project and should be treated as the authoritative experimental inputs.
 
@@ -110,4 +110,4 @@ These counts apply only to the controlled benchmark and are not estimates of gen
 
 The accompanying OSF project contains the exact evidence-root ZIPs, ALEAPP result packages, guard JSON outputs, ground-truth files, `master_results.csv`, and SHA-256 manifest used to support the reported results.
 
-OSF project: **[ADD OSF URL]**
+OSF project: https://osf.io/m72qr/
