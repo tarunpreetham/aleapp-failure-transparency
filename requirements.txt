@@ -1,0 +1,20 @@
+# Project-specific Python requirements
+#
+# forensic_guard.py was developed and tested with Python 3.12.10 and uses
+# Python standard-library modules only. No additional third-party dependency
+# is required for the forensic guard itself.
+#
+# ALEAPP is an external project and is intentionally not installed from this
+# requirements file. Reproduce the ALEAPP environment using the exact commit:
+#
+#   18a1c4c6e20c55aefd7ddc0c2d8d5007d8bb26fa
+#
+# and follow the installation instructions for that ALEAPP revision.
+#
+# IMPORTANT:
+# The baseline generator scripts are retained for reproducibility. If either
+# generator imports a third-party package on your local copy, add the exact
+# package and version below before creating the v1.0-preprint release.
+#
+# Example only (do not uncomment unless verified from the generator imports):
+# openpyxl==<VERIFIED_VERSION>
