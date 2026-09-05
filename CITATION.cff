@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, benchmark, or forensic guard, please cite the associated research work."
+title: "ALEAPP Failure Transparency Microbenchmark"
+type: software
+authors:
+  - family-names: "Bulla"
+    given-names: "Tarun Preetham"
+    orcid: "https://orcid.org/0009-0000-8707-5467"
+version: "1.0.0"
+date-released: "2026-09-05"
+repository-code: "https://github.com/tarunpreetham/aleapp-failure-transparency"
+url: "https://github.com/tarunpreetham/aleapp-failure-transparency"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Bulla"
+      given-names: "Tarun Preetham"
+      orcid: "https://orcid.org/0009-0000-8707-5467"
+  title: "Failure Transparency in Android Forensic Parsing Under Schema and Representation Drift: A Controlled ALEAPP Microbenchmark"
+  year: 2026
+  notes: "Research Square preprint; DOI/URL to be added after posting."
